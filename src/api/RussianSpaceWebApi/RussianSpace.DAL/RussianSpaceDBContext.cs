@@ -19,8 +19,13 @@ namespace RussianSpace.DAL
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //для теста напряму пока отсюда цепляться буду, но в будущем все будет через appsettings.json
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Username=postgres;Password=123456;Database=RussianSpaceDB;Timeout=30;Enlist=false");
+            optionsBuilder.UseNpgsql("Host=localhost;Port=5433;Username=postgres;Password=Rus77!;Database=RussianSpaceDB;Timeout=30;Enlist=false");
             optionsBuilder.UseSnakeCaseNamingConvention();
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.HasDefaultSchema("RussianSpaceSchema");
         }
 
     }
