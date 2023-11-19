@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussianSpace.API", "RussianSpace.API\RussianSpace.API.csproj", "{A027B445-4369-4067-9174-D329CEC5F676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianSpace.API", "RussianSpace.API\RussianSpace.API.csproj", "{A027B445-4369-4067-9174-D329CEC5F676}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianSpace.BLL", "RussianSpace.BLL\RussianSpace.BLL.csproj", "{EC72233D-1DA7-4149-B8F4-35BF2131BACF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RussianSpace.DAL", "RussianSpace.DAL\RussianSpace.DAL.csproj", "{7AFB92BA-FB9D-4BDA-AA34-9D8183C8DB7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A027B445-4369-4067-9174-D329CEC5F676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A027B445-4369-4067-9174-D329CEC5F676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A027B445-4369-4067-9174-D329CEC5F676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC72233D-1DA7-4149-B8F4-35BF2131BACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC72233D-1DA7-4149-B8F4-35BF2131BACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC72233D-1DA7-4149-B8F4-35BF2131BACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC72233D-1DA7-4149-B8F4-35BF2131BACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFB92BA-FB9D-4BDA-AA34-9D8183C8DB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFB92BA-FB9D-4BDA-AA34-9D8183C8DB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFB92BA-FB9D-4BDA-AA34-9D8183C8DB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFB92BA-FB9D-4BDA-AA34-9D8183C8DB7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
